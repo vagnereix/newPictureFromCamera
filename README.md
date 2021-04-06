@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Capacitor](https://capacitorjs.com/docs/getting-started/with-ionic)
 - [TypeScript](https://www.typescriptlang.org/)
 - [HTML5](https://www.w3schools.com/html/default.asp)
-- [SASS](https://sass-lang.com)
+<!--- [SASS](https://sass-lang.com)-->
 
 ---
 
