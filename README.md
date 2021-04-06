@@ -1,4 +1,4 @@
-## 💻 Projeto
+## 📱 Projeto
 Projeto simples para captura e apresentação de imagem a partir da câmera do aparelho.
 
 ## :books: Guia de instalação e execução
