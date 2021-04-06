@@ -1,23 +1,17 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Take a photo
+      Take a new photo
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">New picture</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-fab horizontal="center" vertical="bottom">
+    <ion-fab-button (click)="takePicture()">
+      <ion-icon name="camera"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
 
-  <div id="container">
-    <ion-fab horizontal="center" vertical="bottom">
-      <ion-button (click)="takePicture()">Tirar foto</ion-button>
-      
-      <ion-img src="guestPicture" alt=""></ion-img>
-    </ion-fab>
-  </div>
+  <ion-img *ngIf="guestPicture" [src]="guestPicture" alt=""></ion-img>
 </ion-content>

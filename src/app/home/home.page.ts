@@ -19,7 +19,7 @@ export class HomePage {
         allowEditing: false,
         resultType: CameraResultType.Base64,
       });
-      this.guestPicture = profilePicture.base64String;
+      this.guestPicture = `data:image/${profilePicture.format};base64,${profilePicture.base64String}`;
     } catch (error) {
       console.error(error);
     }
